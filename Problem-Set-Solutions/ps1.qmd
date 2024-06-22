@@ -1,6 +1,7 @@
 ---
-title: "PS 1"
+title: PS1
 ---
+
 # PS 1 Solutions revised Econ 204 S2024.docx
 
 ||# of Classes =|Proportion of Classes =|||

@@ -161,7 +161,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./ps1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">PS 1</span></a>
+ <span class="menu-text">PS1</span></a>
   </div>
 </li>
       </ul>
@@ -300,6 +300,86 @@ window.Quarto = {
     F --&gt;|.99| M(M_2)
     G --&gt;|.01| N(P_2)
     G --&gt;|.99| O(M_2)
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Outcome</th>
+<th style="text-align: left;">Probability</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">POS <span class="math inline">\(\cap\)</span> <span class="math inline">\(P_1 \cap P_2\)</span></td>
+<td style="text-align: left;">(0.006)(0.999)<span class="math inline">\(^2\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">POS <span class="math inline">\(\cap\)</span> <span class="math inline">\(P_1 \cap M_2\)</span></td>
+<td style="text-align: left;">(0.006)(0.999)(0.001)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">POS <span class="math inline">\(\cap\)</span> <span class="math inline">\(M_1 \cap P_2\)</span></td>
+<td style="text-align: left;">(0.006)(0.001)(0.999)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">POS <span class="math inline">\(\cap\)</span> <span class="math inline">\(M_1 \cap M_2\)</span></td>
+<td style="text-align: left;">(0.006)(0.001)<span class="math inline">\(^2\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">NEG <span class="math inline">\(\cap\)</span> <span class="math inline">\(P_1 \cap P_2\)</span></td>
+<td style="text-align: left;">(0.994)(0.01)<span class="math inline">\(^2\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">NEG <span class="math inline">\(\cap\)</span> <span class="math inline">\(P_1 \cap M_2\)</span></td>
+<td style="text-align: left;">(0.994)(0.01)(0.99)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">NEG <span class="math inline">\(\cap\)</span> <span class="math inline">\(M_1 \cap P_2\)</span></td>
+<td style="text-align: left;">(0.994)(0.99)(0.01)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">NEG <span class="math inline">\(\cap\)</span> <span class="math inline">\(M_1 \cap M_2\)</span></td>
+<td style="text-align: left;">(0.994)(0.99)<span class="math inline">\(^2\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr>
+<p>this one is still in progress</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[1,1]">
+<div class="quarto-layout-row">
+<div class="cell quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+    A( )
+    A --&gt;|.008| B(a)
+    A --&gt;|.992| C(B)
+    B --&gt;|.999| D(3)
+    B --&gt;|.001| E(4)
+    C --&gt;|.01| F(5)
+    C --&gt;|.99| G(6)
+    D --&gt;|.999| H(7)
+    D --&gt;|.001| I(8)
+    E --&gt;|.999| J(9)
+    E --&gt;|.001| K(10)
+    F --&gt;|.01| L(11)
+    F --&gt;|.99| M(12)
+    G --&gt;|.01| N(13)
+    G --&gt;|.99| O(14)
 </pre>
 </div>
 <p></p></figure><p></p>
@@ -768,8 +848,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./ps1.html" class="pagination-link" aria-label="PS 1">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">PS 1</span>
+      <a href="./ps1.html" class="pagination-link" aria-label="PS1">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">PS1</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
