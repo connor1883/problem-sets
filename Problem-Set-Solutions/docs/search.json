@@ -30,7 +30,7 @@
     "href": "ps2.html",
     "title": "PS 2",
     "section": "",
-    "text": "PS 2 Solutions Econ 204 S2024\n\n\n\n\n\ngraph LR\n    A( )\n    A --&gt;|.006| B(POS)\n    A --&gt;|.994| C(NEG)\n    B --&gt;|.999| D(P_1)\n    B --&gt;|.001| E(M_1)\n    C --&gt;|.01| F(P_1)\n    C --&gt;|.99| G(M_1)\n    D --&gt;|.999| H(P_2)\n    D --&gt;|.001| I(M_2)\n    E --&gt;|.999| J(P_2)\n    E --&gt;|.001| K(M_2)\n    F --&gt;|.01| L(P_2)\n    F --&gt;|.99| M(M_2)\n    G --&gt;|.01| N(P_2)\n    G --&gt;|.99| O(M_2)",
+    "text": "PS 2 Solutions Econ 204 S2024\n\n\n\n\n\n\n\n\n\n\ngraph LR\n    A( )\n    A --&gt;|.006| B(POS)\n    A --&gt;|.994| C(NEG)\n    B --&gt;|.999| D(P_1)\n    B --&gt;|.001| E(M_1)\n    C --&gt;|.01| F(P_1)\n    C --&gt;|.99| G(M_1)\n    D --&gt;|.999| H(P_2)\n    D --&gt;|.001| I(M_2)\n    E --&gt;|.999| J(P_2)\n    E --&gt;|.001| K(M_2)\n    F --&gt;|.01| L(P_2)\n    F --&gt;|.99| M(M_2)\n    G --&gt;|.01| N(P_2)\n    G --&gt;|.99| O(M_2)\n\n\n\n\n\n\n\n\n\n\nOutcome\nProbability\n\n\n\n\nPOS \\(\\cap\\) \\(P_1 \\cap P_2\\)\n(0.006)(0.999)\\(^2\\)\n\n\nPOS \\(\\cap\\) \\(P_1 \\cap M_2\\)\n(0.006)(0.999)(0.001)\n\n\nPOS \\(\\cap\\) \\(M_1 \\cap P_2\\)\n(0.006)(0.001)(0.999)\n\n\nPOS \\(\\cap\\) \\(M_1 \\cap M_2\\)\n(0.006)(0.001)\\(^2\\)\n\n\nNEG \\(\\cap\\) \\(P_1 \\cap P_2\\)\n(0.994)(0.01)\\(^2\\)\n\n\nNEG \\(\\cap\\) \\(P_1 \\cap M_2\\)\n(0.994)(0.01)(0.99)\n\n\nNEG \\(\\cap\\) \\(M_1 \\cap P_2\\)\n(0.994)(0.99)(0.01)\n\n\nNEG \\(\\cap\\) \\(M_1 \\cap M_2\\)\n(0.994)(0.99)\\(^2\\)",
     "crumbs": [
       "Problem Set Solutions",
       "PS2",
