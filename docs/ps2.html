@@ -353,7 +353,6 @@ window.Quarto = {
 </div>
 </div>
 <hr>
-<p>this one is still in progress</p>
 <div>
 
 </div>
@@ -366,20 +365,34 @@ window.Quarto = {
 <div>
 <pre class="mermaid mermaid-js">graph LR
     A( )
-    A --&gt;|.008| B(a)
-    A --&gt;|.992| C(B)
-    B --&gt;|.999| D(3)
-    B --&gt;|.001| E(4)
-    C --&gt;|.01| F(5)
-    C --&gt;|.99| G(6)
-    D --&gt;|.999| H(7)
-    D --&gt;|.001| I(8)
-    E --&gt;|.999| J(9)
-    E --&gt;|.001| K(10)
-    F --&gt;|.01| L(11)
-    F --&gt;|.99| M(12)
-    G --&gt;|.01| N(13)
-    G --&gt;|.99| O(14)
+    A --&gt;|.008| B1(a)
+    A --&gt;|.992| B2(b)
+    B1 --&gt;|.006| D1(POS)
+    B1 --&gt;|.994| D2(NEG)
+    B2 --&gt;|.006| C1(POS)
+    B2 --&gt;|.994| C2(NEG)
+    D1 --&gt;|1| P1(P_1)
+    D1 --&gt;|0| P2(M_1)
+    P1 --&gt;|1| R1(P_2)
+    P1 --&gt;|0| R2(M_2)
+    P2 --&gt;|1| S1(P_2)
+    P2 --&gt;|0| S2(M_2)
+    D2 --&gt;|1| U1(P_1)
+    D2 --&gt;|0| U2(M_1)
+    U1 --&gt;|1| V1(P_2)
+    U1 --&gt;|0| V2(M_2)
+    U2 --&gt;|1| W1(P_2)
+    U2 --&gt;|0| W2(M_2)
+    C1 --&gt;|.999| E1(P_1)
+    C1 --&gt;|.001| E2(M_1)
+    E1 --&gt;|.999| Q1(P_2)
+    E1 --&gt;|.001| Q2(M_2)
+    C2 --&gt;|.01| F1(P_1)
+    C2 --&gt;|.99| F2(M_1)
+    F1 --&gt;|.01| G1(P_2)
+    F1 --&gt;|.99| G2(M_2)
+    F2 --&gt;|.01| H1(P_2)
+    F2 --&gt;|.99| H2(M_2)
 </pre>
 </div>
 <p></p></figure><p></p>
@@ -388,6 +401,10 @@ window.Quarto = {
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <table class="caption-top table">
+<colgroup>
+<col style="width: 58%">
+<col style="width: 41%">
+</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Outcome</th>
@@ -396,36 +413,84 @@ window.Quarto = {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">POS <span class="math inline">\(\cap\)</span> <span class="math inline">\(P_1 \cap P_2\)</span></td>
-<td style="text-align: left;">(0.006)(0.999)<span class="math inline">\(^2\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\alpha\cap \text{POS}\cap P_1{\cap}P_2\)</span></td>
+<td style="text-align: left;">(0.008)(0.006)</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">POS <span class="math inline">\(\cap\)</span> <span class="math inline">\(P_1 \cap M_2\)</span></td>
-<td style="text-align: left;">(0.006)(0.999)(0.001)</td>
+<td style="text-align: left;"><span class="math inline">\(\alpha\cap \text{POS}\cap P_1{\cap}M_2\)</span></td>
+<td style="text-align: left;">0</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">POS <span class="math inline">\(\cap\)</span> <span class="math inline">\(M_1 \cap P_2\)</span></td>
-<td style="text-align: left;">(0.006)(0.001)(0.999)</td>
+<td style="text-align: left;"><span class="math inline">\(\alpha\cap \text{POS}\cap M_1{\cap}P_2\)</span></td>
+<td style="text-align: left;">0</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">POS <span class="math inline">\(\cap\)</span> <span class="math inline">\(M_1 \cap M_2\)</span></td>
-<td style="text-align: left;">(0.006)(0.001)<span class="math inline">\(^2\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\alpha\cap \text{POS}\cap M_1{\cap}P_2\)</span></td>
+<td style="text-align: left;">0</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">NEG <span class="math inline">\(\cap\)</span> <span class="math inline">\(P_1 \cap P_2\)</span></td>
-<td style="text-align: left;">(0.994)(0.01)<span class="math inline">\(^2\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\alpha\cap \text{POS}\cap M_1{\cap}M_2\)</span></td>
+<td style="text-align: left;">0</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">NEG <span class="math inline">\(\cap\)</span> <span class="math inline">\(P_1 \cap M_2\)</span></td>
-<td style="text-align: left;">(0.994)(0.01)(0.99)</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">NEG <span class="math inline">\(\cap\)</span> <span class="math inline">\(M_1 \cap P_2\)</span></td>
-<td style="text-align: left;">(0.994)(0.99)(0.01)</td>
+<td style="text-align: left;"><span class="math inline">\(\alpha\cap \text{NEG}\cap P_1{\cap}P_2\)</span></td>
+<td style="text-align: left;">(0.008)(0.994)</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">NEG <span class="math inline">\(\cap\)</span> <span class="math inline">\(M_1 \cap M_2\)</span></td>
-<td style="text-align: left;">(0.994)(0.99)<span class="math inline">\(^2\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\alpha\cap \text{POS}\cap P_1{\cap}M_2\)</span></td>
+<td style="text-align: left;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(\alpha\cap \text{POS}\cap M_1{\cap}P_2\)</span></td>
+<td style="text-align: left;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(\alpha\cap \text{POS}\cap M_1{\cap}M_2\)</span></td>
+<td style="text-align: left;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(\beta\cap \text{POS}\cap P_1{\cap}P_2\)</span></td>
+<td style="text-align: left;">(0.992)(0.006)(0.999)<span class="math inline">\(^2\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(\beta\cap \text{POS}\cap P_1{\cap}M_2\)</span></td>
+<td style="text-align: left;">(0.992)(0.006)(0.999)(0.001)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(\beta\cap \text{POS}\cap M_1{\cap}P_2\)</span></td>
+<td style="text-align: left;">(0.992)(0.006)(0.001)(0.999)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(\beta\cap \text{POS}\cap M_1{\cap}M_2\)</span></td>
+<td style="text-align: left;">(0.992)(0.001)<span class="math inline">\(^2\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(\beta\cap \text{NEG}\cap P_1{\cap}P_2\)</span></td>
+<td style="text-align: left;">(0.992)(0.994)(0.01)<span class="math inline">\(^2\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(\beta\cap \text{POS}\cap P_1{\cap}M_2\)</span></td>
+<td style="text-align: left;">(0.992)0.994)(0.01)(0.99)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(\beta\cap \text{POS}\cap M_1{\cap}P_2\)</span></td>
+<td style="text-align: left;">(0.992)(0.994)(0.99)(0.1)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(\beta\cap \text{POS}\cap M_1{\cap}M_2\)</span></td>
+<td style="text-align: left;">(0.992)(0.994)(0.99)<span class="math inline">\(^2\)</span></td>
 </tr>
 </tbody>
 </table>
