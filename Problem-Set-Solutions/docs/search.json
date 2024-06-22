@@ -1,5 +1,17 @@
 [
   {
+    "objectID": "ps1.html",
+    "href": "ps1.html",
+    "title": "PS 1",
+    "section": "",
+    "text": "PS 1 Solutions revised Econ 204 S2024.docx\n\n\n\n\n\n\n\n\n\n\n\n# of Classes =\nProportion of Classes =\n\n\n\n\n\n\nClass Size\n# of Professors\nProportion of Professors\n# of Students\nProportion of Students\n\n\n5\n83\n0.1563\n415\n0.0399\n\n\n14.5\n217\n0.4087\n3146.5\n0.3027\n\n\n24.5\n148\n0.2787\n3626\n0.3489\n\n\n34.5\n72\n0.1356\n2484\n0.239\n\n\n44.5\n5\n0.0094\n222.5\n0.0214\n\n\n74.5\n4\n0.0075\n298\n0.0287\n\n\n101\n2\n0.0038\n202\n0.0194\n\n\nTotal # of Classes=\n531\nTotal # of Students=\n10,394\n\n\n\n\n\n\nPS 1 problem 1.xlsx\n\n\n\n\nReg\n\n\nDecaf\n\n\nEsp\n\n\n\n\n\n\nrating\nnumber\nshare\nrating\nnumber\n\nrating\nnumber\n\n\n1\n4.2\n35\n0.225806\n4.4\n15\n0.166667\n4.7\n15\n\n\n2\n4\n25\n0.16129\n4.2\n65\n0.722222\n4.8\n20\n\n\n3\n4.6\n95\n0.612903\n4.7\n10\n0.111111\n4.9\n18\n\n\n\n\n\n1\n\n\n1\n\n\n\n\n\n147\n35\n\n66\n15\n\n70.5\n15\n\n\n\n100\n25\n\n273\n65\n\n96\n20\n\n\n\n437\n95\n\n47\n10\n\n88.2\n18\n\n\n\n684\n155\n\n386\n90\n\n254.7\n53\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4.412903\n\n\n4.288889\n\n\n4.80566",
+    "crumbs": [
+      "Problem Set Solutions",
+      "PS1",
+      "PS 1"
+    ]
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -9,20 +21,20 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Problem Set Solutions",
+    "title": "Problem-Set-Solutions",
     "section": "",
-    "text": "Problem sets solution tables and figures hosted here"
+    "text": "Quarto Website for PS solution figures and tables"
   },
   {
-    "objectID": "ps1.html",
-    "href": "ps1.html",
-    "title": "PS1 Solutions",
+    "objectID": "ps2.html",
+    "href": "ps2.html",
+    "title": "PS 2",
     "section": "",
-    "text": "Testing",
+    "text": "PS 2 Solutions Econ 204 S2024\n\n\n\n\n\ngraph LR\n    A( )\n    A --&gt;|.006| B(POS)\n    A --&gt;|.994| C(NEG)\n    B --&gt;|.999| D(P_1)\n    B --&gt;|.001| E(M_1)\n    C --&gt;|.01| F(P_1)\n    C --&gt;|.99| G(M_1)\n    D --&gt;|.999| H(P_2)\n    D --&gt;|.001| I(M_2)\n    E --&gt;|.999| J(P_2)\n    E --&gt;|.001| K(M_2)\n    F --&gt;|.01| L(P_2)\n    F --&gt;|.99| M(M_2)\n    G --&gt;|.01| N(P_2)\n    G --&gt;|.99| O(M_2)",
     "crumbs": [
       "Problem Set Solutions",
-      "PS1",
-      "PS1 Solutions"
+      "PS2",
+      "PS 2"
     ]
   }
 ]
