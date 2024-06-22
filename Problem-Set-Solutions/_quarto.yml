@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "Problem Sets"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Problem Set Solutions"
+        contents:
+        - section: "PS1"
+          contents:
+            - ps1.qmd
+        - section: "PS2"
+          contents:
+            - ps2.qmd
+        - section: "PS3"
+          contents:
+            - ps3.qmd
+        - section: "PS4"
+          contents:
+            - ps4.qmd
+        - section: "PS5"
+          contents: 
+            - ps5.qmd
+format:
+  html:
+    grid:
+      sidebar-width: 350px
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

@@ -1,0 +1,28 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Problem Set Solutions",
+    "section": "",
+    "text": "Problem sets solution tables and figures hosted here"
+  },
+  {
+    "objectID": "ps1.html",
+    "href": "ps1.html",
+    "title": "PS1 Solutions",
+    "section": "",
+    "text": "Testing",
+    "crumbs": [
+      "Problem Set Solutions",
+      "PS1",
+      "PS1 Solutions"
+    ]
+  }
+]
