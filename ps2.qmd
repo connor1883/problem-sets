@@ -1,10 +1,9 @@
 ---
-title: "PS 2"
+title: "PS 2 Solutions"
 mermaid:
       theme: default
 ---
-# PS 2 Solutions Econ 204 S2024
-
+### A2)
 ::: {layout="[1,1]"}
 ```{mermaid}
 graph LR
@@ -39,15 +38,15 @@ graph LR
 
 :::
 
----
 
+### A3)
 ::: {layout="[1,1]"}
 
 ```{mermaid}
 graph LR
     A( )
-    A -->|.008| B1(a)
-    A -->|.992| B2(b)
+    A -->|.008| B1(alpha)
+    A -->|.992| B2(beta)
     B1 -->|.006| D1(POS)
     B1 -->|.994| D2(NEG)
     B2 -->|.006| C1(POS)

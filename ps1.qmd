@@ -1,8 +1,6 @@
 ---
-title: PS1
+title: "PS1 Solutions"
 ---
-
-# PS 1 Solutions revised Econ 204 S2024.docx
 
 ||# of Classes =|Proportion of Classes =|||
 |---|---|---|---|---|

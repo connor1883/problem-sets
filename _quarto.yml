@@ -21,7 +21,7 @@ website:
           contents:
             #- ps3.qmd
             - ps3a.qmd
-        - section: "PS4a"
+        - section: "PS4"
           contents:
             - ps4a.qmd
         - section: "PS5"
