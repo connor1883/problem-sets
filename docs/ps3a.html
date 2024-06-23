@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Problem Sets - Problem Set 3 Solutions</title>
+<title>Problem Sets - PS3 Additional Solutions</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./ps3a.html" rel="next">
-<link href="./ps2.html" rel="prev">
+<link href="./ps5.html" rel="next">
+<link href="./ps3.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,7 +68,40 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<meta name="mermaid-theme" content="default">
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -82,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Problem Set Solutions</li><li class="breadcrumb-item"><a href="./ps3.html">PS3</a></li><li class="breadcrumb-item"><a href="./ps3.html">Problem Set 3 Solutions</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Problem Set Solutions</li><li class="breadcrumb-item"><a href="./ps3.html">PS3</a></li><li class="breadcrumb-item"><a href="./ps3a.html">PS3 Additional Solutions</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -161,13 +194,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ps3.html" class="sidebar-item-text sidebar-link active">
+  <a href="./ps3.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Problem Set 3 Solutions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ps3a.html" class="sidebar-item-text sidebar-link">
+  <a href="./ps3a.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">PS3 Additional Solutions</span></a>
   </div>
 </li>
@@ -217,9 +250,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Problem Set Solutions</li><li class="breadcrumb-item"><a href="./ps3.html">PS3</a></li><li class="breadcrumb-item"><a href="./ps3.html">Problem Set 3 Solutions</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Problem Set Solutions</li><li class="breadcrumb-item"><a href="./ps3.html">PS3</a></li><li class="breadcrumb-item"><a href="./ps3a.html">PS3 Additional Solutions</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Problem Set 3 Solutions</h1>
+<h1 class="title">PS3 Additional Solutions</h1>
 </div>
 
 
@@ -236,7 +269,205 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>n/a</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[1,1]">
+<div class="quarto-layout-row">
+<div class="cell quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+    A( )
+    A --&gt;|1/3| B(H)
+    A --&gt;|2/3| C(T)
+    B --&gt;|2/3| D(H)
+    B --&gt;|1/3| E(T)
+    C --&gt;|1/4| F(H)
+    C --&gt;|3/4| G(T)
+
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"><span class="math inline">\(\omega\)</span></th>
+<th style="text-align: left;">P<span class="math inline">\((\omega)\)</span></th>
+<th style="text-align: left;"><span class="math inline">\(\tilde R\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">HH</td>
+<td style="text-align: left;">2/9</td>
+<td style="text-align: left;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">HT</td>
+<td style="text-align: left;">1/9</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">TH</td>
+<td style="text-align: left;">1/6</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">TT</td>
+<td style="text-align: left;">1/2</td>
+<td style="text-align: left;">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p>This one isn’t happening in mermaid</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+    A[" "]
+    A--&gt;|1/2| H["H"]
+    H --&gt;|1/2| N["H"]
+    H --&gt;|1/2| O["T"]
+    A --&gt;|4/5| I["T"]
+    I --&gt;|1/2| P["H"]
+    I --&gt;|1/2| Q["T"]--&gt;BB[H]
+    Q --&gt;|1/2| QQ[T]
+    A --&gt;|1/6| C["T"]
+    C --&gt;|1/2| E["H"]
+    E --&gt;|1/2| J["H"]
+    E --&gt;|1/2| K["T"]
+    C --&gt;|1/2| F["T"]
+    F --&gt;|1/2| L["H"]
+    F --&gt;|1/2| M["T"]
+    J --&gt;|1/2| R["H"]
+    J --&gt;|1/2| S["T"]
+    K --&gt;|1/2| T["H"]
+    K --&gt;|1/2| U["T"]
+    L --&gt;|1/2| V["H"]
+    L --&gt;|1/2| W["T"]
+    M --&gt;|1/2| X["H"]
+    M --&gt;|1/2| Y["T"]
+    P --&gt;|1/2| Z["H"]
+    P --&gt;|1/2| AA["T"]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[1,1]">
+<div class="quarto-layout-row">
+<div class="cell quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+  A( ) --&gt;|14/20| B1(B)
+  A --&gt;|6/20| R1(R)
+  B1 --&gt;|13/19| B2(B)
+  B1 --&gt;|6/19| R2(R)
+  R1 --&gt;|14/19| B3(B)
+  R1 --&gt;|5/19| R3(R)
+  B2 --&gt;|12/18| B4(B)
+  B2 --&gt;|6/18| R4(R)
+  R2 --&gt;|13/18| B5(B)
+  R2 --&gt;|5/18| R5(R)
+  B3 --&gt;|13/18| B6(B)
+  B3 --&gt;|5/18| R6(R)
+  R3 --&gt;|14/18| B7(B)
+  R3 --&gt;|4/18| R7(R)
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Outcome</th>
+<th style="text-align: left;">Prob</th>
+<th style="text-align: left;"><span class="math inline">\(\tilde Y\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">BBB</td>
+<td style="text-align: left;">91/285</td>
+<td style="text-align: left;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BBR</td>
+<td style="text-align: left;">91/570</td>
+<td style="text-align: left;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BRB</td>
+<td style="text-align: left;">91/570</td>
+<td style="text-align: left;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">BRR</td>
+<td style="text-align: left;">7/114</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">RBB</td>
+<td style="text-align: left;">91/570</td>
+<td style="text-align: left;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">RBR</td>
+<td style="text-align: left;">7/114</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">RRB</td>
+<td style="text-align: left;">7/114</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">RRR</td>
+<td style="text-align: left;">1/57</td>
+<td style="text-align: left;">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
 
 
 
@@ -652,13 +883,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./ps2.html" class="pagination-link" aria-label="PS 2">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">PS 2</span>
+      <a href="./ps3.html" class="pagination-link" aria-label="Problem Set 3 Solutions">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Problem Set 3 Solutions</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./ps3a.html" class="pagination-link" aria-label="PS3 Additional Solutions">
-        <span class="nav-page-text">PS3 Additional Solutions</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./ps5.html" class="pagination-link" aria-label="ps5.html">
+        <span class="nav-page-text">ps5.html</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

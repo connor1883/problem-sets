@@ -19,8 +19,9 @@ website:
             - ps2.qmd
         - section: "PS3"
           contents:
-            - ps3.qmd
-        - section: "PS4"
+            #- ps3.qmd
+            - ps3a.qmd
+        - section: "PS4a"
           contents:
             - ps4.qmd
         - section: "PS5"
