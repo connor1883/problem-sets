@@ -23,7 +23,7 @@ website:
             - ps3a.qmd
         - section: "PS4a"
           contents:
-            - ps4.qmd
+            - ps4a.qmd
         - section: "PS5"
           contents: 
             - ps5.qmd
