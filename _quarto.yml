@@ -27,6 +27,9 @@ website:
         - section: "PS5"
           contents: 
             - ps5.qmd
+        - section: "PS7"
+          contents:
+            - ps7.qmd
 format:
   html:
     grid:

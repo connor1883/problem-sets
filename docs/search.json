@@ -1,41 +1,34 @@
 [
   {
-    "objectID": "ps3a.html",
-    "href": "ps3a.html",
-    "title": "PS3 Additional Solutions",
+    "objectID": "ps7.html",
+    "href": "ps7.html",
+    "title": "PS7",
     "section": "",
-    "text": "A2)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n    A( )\n    A --&gt;|1/3| B(H)\n    A --&gt;|2/3| C(T)\n    B --&gt;|2/3| D(H)\n    B --&gt;|1/3| E(T)\n    C --&gt;|1/4| F(H)\n    C --&gt;|3/4| G(T)\n\n\n\n\n\n\n\n\n\n\n\n\\(\\omega\\)\nP\\((\\omega)\\)\n\\(\\tilde R\\)\n\n\n\n\nHH\n2/9\n2\n\n\nHT\n1/9\n1\n\n\nTH\n1/6\n1\n\n\nTT\n1/2\n0\n\n\n\n\n\n\n\n\nA3)\nThis one isn’t happening in mermaid\n\n\n\n\n\ngraph LR\n    A[\" \"]\n    A--&gt;|1/2| H[\"H\"]\n    H --&gt;|1/2| N[\"H\"]\n    H --&gt;|1/2| O[\"T\"]\n    A --&gt;|4/5| I[\"T\"]\n    I --&gt;|1/2| P[\"H\"]\n    I --&gt;|1/2| Q[\"T\"]--&gt;BB[H]\n    Q --&gt;|1/2| QQ[T]\n    A --&gt;|1/6| C[\"T\"]\n    C --&gt;|1/2| E[\"H\"]\n    E --&gt;|1/2| J[\"H\"]\n    E --&gt;|1/2| K[\"T\"]\n    C --&gt;|1/2| F[\"T\"]\n    F --&gt;|1/2| L[\"H\"]\n    F --&gt;|1/2| M[\"T\"]\n    J --&gt;|1/2| R[\"H\"]\n    J --&gt;|1/2| S[\"T\"]\n    K --&gt;|1/2| T[\"H\"]\n    K --&gt;|1/2| U[\"T\"]\n    L --&gt;|1/2| V[\"H\"]\n    L --&gt;|1/2| W[\"T\"]\n    M --&gt;|1/2| X[\"H\"]\n    M --&gt;|1/2| Y[\"T\"]\n    P --&gt;|1/2| Z[\"H\"]\n    P --&gt;|1/2| AA[\"T\"]\n\n\n\n\n\n\n\n\nA12)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n  A( ) --&gt;|7/10| B1(B)\n  A--&gt;|3/10| R1(R)\n  B1(B) --&gt;|7/10| B2(B)\n  B1(B) --&gt;|3/10| R2(R)\n  R1(R) --&gt;|7/10| B3(B)\n  R1(R) --&gt;|3/10| R3(R)\n  B2(B) --&gt;|7/10| B4(B)\n  B2(B) --&gt;|3/10| R4(R)\n  R2(R) --&gt;|7/10| B5(B)\n  R2(R) --&gt;|3/10| R5(R)\n  B3(B) --&gt;|7/10| B6(B)\n  B3(B) --&gt;|3/10| R6(R)\n  R3(R) --&gt;|7/10| B7(B)\n  R3(R) --&gt;|3/10| R7(R)\n\n\n\n\n\n\n\n\n\n\nOutcome\nProb\n\\(\\tilde X\\)\n\n\n\n\nBBB\n\\((7/10)^3\\)\n3\n\n\nBBR\n\\((7/10)^2(3/10)\\)\n2\n\n\n\n\n\n\n\nBRB\n\\((7/10)^2(3/10)\\)\n2\n\n\nBRR\n\\((7/10)(3/10)^2\\)\n1\n\n\n\n\n\n\n\nRBB\n\\((7/10)^2(3/10)\\)\n2\n\n\nRBR\n\\((7/10)(3/10)^2\\)\n1\n\n\n\n\n\n\n\nRRB\n\\((7/10)(3/10)^2\\)\n1\n\n\nRRR\n\\((3/10)^3\\)\n0\n\n\n\n\n\n\n\n\nA13)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n  A( ) --&gt;|14/20| B1(B)\n  A --&gt;|6/20| R1(R)\n  B1 --&gt;|13/19| B2(B)\n  B1 --&gt;|6/19| R2(R)\n  R1 --&gt;|14/19| B3(B)\n  R1 --&gt;|5/19| R3(R)\n  B2 --&gt;|12/18| B4(B)\n  B2 --&gt;|6/18| R4(R)\n  R2 --&gt;|13/18| B5(B)\n  R2 --&gt;|5/18| R5(R)\n  B3 --&gt;|13/18| B6(B)\n  B3 --&gt;|5/18| R6(R)\n  R3 --&gt;|14/18| B7(B)\n  R3 --&gt;|4/18| R7(R)\n\n\n\n\n\n\n\n\n\n\nOutcome\nProb\n\\(\\tilde Y\\)\n\n\n\n\nBBB\n91/285\n3\n\n\nBBR\n91/570\n2\n\n\n\n\n\n\n\nBRB\n91/570\n2\n\n\nBRR\n7/114\n1\n\n\n\n\n\n\n\nRBB\n91/570\n2\n\n\nRBR\n7/114\n1\n\n\n\n\n\n\n\nRRB\n7/114\n1\n\n\nRRR\n1/57\n0",
+    "text": "A2)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n  A( ) --&gt;|2/5| B1(40)\n  A --&gt;|2/5| B2(55)\n  A --&gt;|1/5| B3(80)\n  B1 --&gt;|2/5| C1(40)\n  B1 --&gt;|2/5| C2(55)\n  B1 --&gt;|1/5| C3(80)\n  B2 --&gt;|2/5| C4(40)\n  B2 --&gt;|2/5| C5(55)\n  B2 --&gt;|1/5| C6(80)\n  B3 --&gt;|2/5| C7(40)\n  B3 --&gt;|2/5| C8(55)\n  B3 --&gt;|1/5| C9(80)\n\n\n\n\n\n\n\n\n\n\nProb\n\\(\\tilde{X}_1\\)\n\\(\\tilde{X}_2\\)\n\\(\\tilde{X}(2)\\)\n\n\n\n\n4/25\n40\n40\n40\n\n\n4/25\n40\n55\n47.5\n\n\n2/25\n40\n80\n60\n\n\n\n\n\n\n\n\n4/25\n55\n40\n47.5\n\n\n4/25\n55\n55\n55\n\n\n2/25\n55\n80\n67.5\n\n\n\n\n\n\n\n\n2/25\n80\n40\n60\n\n\n2/25\n80\n55\n67.5\n\n\n1/25\n80\n80\n80",
     "crumbs": [
       "Problem Set Solutions",
-      "PS3",
-      "PS3 Additional Solutions"
+      "PS7",
+      "PS7"
     ]
   },
   {
-    "objectID": "ps2.html",
-    "href": "ps2.html",
-    "title": "PS 2 Solutions",
+    "objectID": "ps4a.html",
+    "href": "ps4a.html",
+    "title": "PS4 additional solutions",
     "section": "",
-    "text": "A2)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n    A( )\n    A --&gt;|.006| B(POS)\n    A --&gt;|.994| C(NEG)\n    B --&gt;|.999| D(P_1)\n    B --&gt;|.001| E(M_1)\n    C --&gt;|.01| F(P_1)\n    C --&gt;|.99| G(M_1)\n    D --&gt;|.999| H(P_2)\n    D --&gt;|.001| I(M_2)\n    E --&gt;|.999| J(P_2)\n    E --&gt;|.001| K(M_2)\n    F --&gt;|.01| L(P_2)\n    F --&gt;|.99| M(M_2)\n    G --&gt;|.01| N(P_2)\n    G --&gt;|.99| O(M_2)\n\n\n\n\n\n\n\n\n\n\nOutcome\nProbability\n\n\n\n\nPOS \\(\\cap\\) \\(P_1 \\cap P_2\\)\n(0.006)(0.999)\\(^2\\)\n\n\nPOS \\(\\cap\\) \\(P_1 \\cap M_2\\)\n(0.006)(0.999)(0.001)\n\n\nPOS \\(\\cap\\) \\(M_1 \\cap P_2\\)\n(0.006)(0.001)(0.999)\n\n\nPOS \\(\\cap\\) \\(M_1 \\cap M_2\\)\n(0.006)(0.001)\\(^2\\)\n\n\nNEG \\(\\cap\\) \\(P_1 \\cap P_2\\)\n(0.994)(0.01)\\(^2\\)\n\n\nNEG \\(\\cap\\) \\(P_1 \\cap M_2\\)\n(0.994)(0.01)(0.99)\n\n\nNEG \\(\\cap\\) \\(M_1 \\cap P_2\\)\n(0.994)(0.99)(0.01)\n\n\nNEG \\(\\cap\\) \\(M_1 \\cap M_2\\)\n(0.994)(0.99)\\(^2\\)\n\n\n\n\n\n\n\n\nA3)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n    A( )\n    A --&gt;|.008| B1(alpha)\n    A --&gt;|.992| B2(beta)\n    B1 --&gt;|.006| D1(POS)\n    B1 --&gt;|.994| D2(NEG)\n    B2 --&gt;|.006| C1(POS)\n    B2 --&gt;|.994| C2(NEG)\n    D1 --&gt;|1| P1(P_1)\n    D1 --&gt;|0| P2(M_1)\n    P1 --&gt;|1| R1(P_2)\n    P1 --&gt;|0| R2(M_2)\n    P2 --&gt;|1| S1(P_2)\n    P2 --&gt;|0| S2(M_2)\n    D2 --&gt;|1| U1(P_1)\n    D2 --&gt;|0| U2(M_1)\n    U1 --&gt;|1| V1(P_2)\n    U1 --&gt;|0| V2(M_2)\n    U2 --&gt;|1| W1(P_2)\n    U2 --&gt;|0| W2(M_2)\n    C1 --&gt;|.999| E1(P_1)\n    C1 --&gt;|.001| E2(M_1)\n    E1 --&gt;|.999| Q1(P_2)\n    E1 --&gt;|.001| Q2(M_2)\n    C2 --&gt;|.01| F1(P_1)\n    C2 --&gt;|.99| F2(M_1)\n    F1 --&gt;|.01| G1(P_2)\n    F1 --&gt;|.99| G2(M_2)\n    F2 --&gt;|.01| H1(P_2)\n    F2 --&gt;|.99| H2(M_2)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOutcome\nProbability\n\n\n\n\n\\(\\alpha\\cap \\text{POS}\\cap P_1{\\cap}P_2\\)\n(0.008)(0.006)\n\n\n\\(\\alpha\\cap \\text{POS}\\cap P_1{\\cap}M_2\\)\n0\n\n\n\\(\\alpha\\cap \\text{POS}\\cap M_1{\\cap}P_2\\)\n0\n\n\n\\(\\alpha\\cap \\text{POS}\\cap M_1{\\cap}P_2\\)\n0\n\n\n\\(\\alpha\\cap \\text{POS}\\cap M_1{\\cap}M_2\\)\n0\n\n\n\n\n\n\n\\(\\alpha\\cap \\text{NEG}\\cap P_1{\\cap}P_2\\)\n(0.008)(0.994)\n\n\n\\(\\alpha\\cap \\text{POS}\\cap P_1{\\cap}M_2\\)\n0\n\n\n\\(\\alpha\\cap \\text{POS}\\cap M_1{\\cap}P_2\\)\n0\n\n\n\\(\\alpha\\cap \\text{POS}\\cap M_1{\\cap}M_2\\)\n0\n\n\n\n\n\n\n\\(\\beta\\cap \\text{POS}\\cap P_1{\\cap}P_2\\)\n(0.992)(0.006)(0.999)\\(^2\\)\n\n\n\\(\\beta\\cap \\text{POS}\\cap P_1{\\cap}M_2\\)\n(0.992)(0.006)(0.999)(0.001)\n\n\n\\(\\beta\\cap \\text{POS}\\cap M_1{\\cap}P_2\\)\n(0.992)(0.006)(0.001)(0.999)\n\n\n\\(\\beta\\cap \\text{POS}\\cap M_1{\\cap}M_2\\)\n(0.992)(0.001)\\(^2\\)\n\n\n\n\n\n\n\\(\\beta\\cap \\text{NEG}\\cap P_1{\\cap}P_2\\)\n(0.992)(0.994)(0.01)\\(^2\\)\n\n\n\\(\\beta\\cap \\text{POS}\\cap P_1{\\cap}M_2\\)\n(0.992)0.994)(0.01)(0.99)\n\n\n\\(\\beta\\cap \\text{POS}\\cap M_1{\\cap}P_2\\)\n(0.992)(0.994)(0.99)(0.1)\n\n\n\\(\\beta\\cap \\text{POS}\\cap M_1{\\cap}M_2\\)\n(0.992)(0.994)(0.99)\\(^2\\)",
+    "text": "A2)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n  A( ) --&gt;|7/10| B1(B)\n  A--&gt;|3/10| R1(R)\n  B1(B) --&gt;|7/10| B2(B)\n  B1(B) --&gt;|3/10| R2(R)\n  R1(R) --&gt;|7/10| B3(B)\n  R1(R) --&gt;|3/10| R3(R)\n  B2(B) --&gt;|7/10| B4(B)\n  B2(B) --&gt;|3/10| R4(R)\n  R2(R) --&gt;|7/10| B5(B)\n  R2(R) --&gt;|3/10| R5(R)\n  B3(B) --&gt;|7/10| B6(B)\n  B3(B) --&gt;|3/10| R6(R)\n  R3(R) --&gt;|7/10| B7(B)\n  R3(R) --&gt;|3/10| R7(R)\n\n\n\n\n\n\n\n\n\n\nOutcome\nProb\n\\(\\tilde X\\)\n\n\n\n\nBBB\n\\((7/10)^3\\)\n3\n\n\nBBR\n\\((7/10)^2(3/10)\\)\n2\n\n\n\n\n\n\n\nBRB\n\\((7/10)^2(3/10)\\)\n2\n\n\nBRR\n\\((7/10)(3/10)^2\\)\n1\n\n\n\n\n\n\n\nRBB\n\\((7/10)^2(3/10)\\)\n2\n\n\nRBR\n\\((7/10)(3/10)^2\\)\n1\n\n\n\n\n\n\n\nRRB\n\\((7/10)(3/10)^2\\)\n1\n\n\nRRR\n\\((3/10)^3\\)\n0\n\n\n\n\n\n\n\n\nA3)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n  A( ) --&gt;|14/20| B1(B)\n  A --&gt;|6/20| R1(R)\n  B1 --&gt;|13/19| B2(B)\n  B1 --&gt;|6/19| R2(R)\n  R1 --&gt;|14/19| B3(B)\n  R1 --&gt;|5/19| R3(R)\n  B2 --&gt;|12/18| B4(B)\n  B2 --&gt;|6/18| R4(R)\n  R2 --&gt;|13/18| B5(B)\n  R2 --&gt;|5/18| R5(R)\n  B3 --&gt;|13/18| B6(B)\n  B3 --&gt;|5/18| R6(R)\n  R3 --&gt;|14/18| B7(B)\n  R3 --&gt;|4/18| R7(R)\n\n\n\n\n\n\n\n\n\n\nOutcome\nProb\n\\(\\tilde Y\\)\n\n\n\n\nBBB\n91/285\n3\n\n\nBBR\n91/570\n2\n\n\n\n\n\n\n\nBRB\n91/570\n2\n\n\nBRR\n7/114\n1\n\n\n\n\n\n\n\nRBB\n91/570\n2\n\n\nRBR\n7/114\n1\n\n\n\n\n\n\n\nRRB\n7/114\n1\n\n\nRRR\n1/57\n0\n\n\n\n\n\n\n\n\nA5)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n  A( ) --&gt;|7/10| B1(B)\n  A --&gt;|3/10| M1(M)\n  B1 --&gt;|7/10| B2(B)\n  B1 --&gt;|3/10| M2(M)\n  M1 --&gt;|7/10| B3(B)\n  M1 --&gt;|3/10| M3(M)\n\n\n\n\n\n\n\n\n\n\nOutcome\nProbability\n\\(\\tilde{R}\\)\n\n\n\n\nBB\n49/100\n2\n\n\nBM\n21/100\n1\n\n\n\n\n\n\n\nMB\n21/100\n1\n\n\nMM\n9/100\n0\n\n\n\n\n\n\n\n\nA6)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n  A( ) --&gt;|7/10| B1(B)\n  A --&gt;|3/10| M1(M)\n  B1 --&gt;|4/5| B2(B)\n  B1 --&gt;|1/5| M2(M)\n  M1 --&gt;|7/15| B3(B)\n  M1 --&gt;|8/15| M3(M)\n\n\n\n\n\n\n\n\n\n\nOutcome\nProbability\n\\(\\tilde{J}\\)\n\n\n\n\nBB\n14/25\n2\n\n\nBM\n7/50\n1\n\n\n\n\n\n\n\nMB\n7/50\n1\n\n\nMM\n4/25\n0",
     "crumbs": [
       "Problem Set Solutions",
-      "PS2",
-      "PS 2 Solutions"
+      "PS4",
+      "PS4 additional solutions"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Problem-Set-Solutions",
+    "objectID": "ps3.html",
+    "href": "ps3.html",
+    "title": "Problem Set 3 Solutions",
     "section": "",
-    "text": "Quarto Website for PS solution figures and tables"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "n/a"
   },
   {
     "objectID": "ps1.html",
@@ -50,22 +43,41 @@
     ]
   },
   {
-    "objectID": "ps3.html",
-    "href": "ps3.html",
-    "title": "Problem Set 3 Solutions",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "n/a"
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "ps4a.html",
-    "href": "ps4a.html",
-    "title": "PS4 additional solutions",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Problem-Set-Solutions",
     "section": "",
-    "text": "A2)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n  A( ) --&gt;|7/10| B1(B)\n  A--&gt;|3/10| R1(R)\n  B1(B) --&gt;|7/10| B2(B)\n  B1(B) --&gt;|3/10| R2(R)\n  R1(R) --&gt;|7/10| B3(B)\n  R1(R) --&gt;|3/10| R3(R)\n  B2(B) --&gt;|7/10| B4(B)\n  B2(B) --&gt;|3/10| R4(R)\n  R2(R) --&gt;|7/10| B5(B)\n  R2(R) --&gt;|3/10| R5(R)\n  B3(B) --&gt;|7/10| B6(B)\n  B3(B) --&gt;|3/10| R6(R)\n  R3(R) --&gt;|7/10| B7(B)\n  R3(R) --&gt;|3/10| R7(R)\n\n\n\n\n\n\n\n\n\n\nOutcome\nProb\n\\(\\tilde X\\)\n\n\n\n\nBBB\n\\((7/10)^3\\)\n3\n\n\nBBR\n\\((7/10)^2(3/10)\\)\n2\n\n\n\n\n\n\n\nBRB\n\\((7/10)^2(3/10)\\)\n2\n\n\nBRR\n\\((7/10)(3/10)^2\\)\n1\n\n\n\n\n\n\n\nRBB\n\\((7/10)^2(3/10)\\)\n2\n\n\nRBR\n\\((7/10)(3/10)^2\\)\n1\n\n\n\n\n\n\n\nRRB\n\\((7/10)(3/10)^2\\)\n1\n\n\nRRR\n\\((3/10)^3\\)\n0\n\n\n\n\n\n\n\n\nA3)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n  A( ) --&gt;|14/20| B1(B)\n  A --&gt;|6/20| R1(R)\n  B1 --&gt;|13/19| B2(B)\n  B1 --&gt;|6/19| R2(R)\n  R1 --&gt;|14/19| B3(B)\n  R1 --&gt;|5/19| R3(R)\n  B2 --&gt;|12/18| B4(B)\n  B2 --&gt;|6/18| R4(R)\n  R2 --&gt;|13/18| B5(B)\n  R2 --&gt;|5/18| R5(R)\n  B3 --&gt;|13/18| B6(B)\n  B3 --&gt;|5/18| R6(R)\n  R3 --&gt;|14/18| B7(B)\n  R3 --&gt;|4/18| R7(R)\n\n\n\n\n\n\n\n\n\n\nOutcome\nProb\n\\(\\tilde Y\\)\n\n\n\n\nBBB\n91/285\n3\n\n\nBBR\n91/570\n2\n\n\n\n\n\n\n\nBRB\n91/570\n2\n\n\nBRR\n7/114\n1\n\n\n\n\n\n\n\nRBB\n91/570\n2\n\n\nRBR\n7/114\n1\n\n\n\n\n\n\n\nRRB\n7/114\n1\n\n\nRRR\n1/57\n0\n\n\n\n\n\n\n\n\nA5)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n  A( ) --&gt;|7/10| B1(B)\n  A --&gt;|3/10| M1(M)\n  B1 --&gt;|7/10| B2(B)\n  B1 --&gt;|3/10| M2(M)\n  M1 --&gt;|7/10| B3(B)\n  M1 --&gt;|3/10| M3(M)\n\n\n\n\n\n\n\n\n\n\nOutcome\nProbability\n\\(\\tilde{R}\\)\n\n\n\n\nBB\n49/100\n2\n\n\nBM\n21/100\n1\n\n\n\n\n\n\n\nMB\n21/100\n1\n\n\nMM\n9/100\n0\n\n\n\n\n\n\n\n\nA6)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n  A( ) --&gt;|7/10| B1(B)\n  A --&gt;|3/10| M1(M)\n  B1 --&gt;|4/5| B2(B)\n  B1 --&gt;|1/5| M2(M)\n  M1 --&gt;|7/15| B3(B)\n  M1 --&gt;|8/15| M3(M)\n\n\n\n\n\n\n\n\n\n\nOutcome\nProbability\n\\(\\tilde{J}\\)\n\n\n\n\nBB\n14/25\n2\n\n\nBM\n7/50\n1\n\n\n\n\n\n\n\nMB\n7/50\n1\n\n\nMM\n4/25\n0",
+    "text": "Quarto Website for PS solution figures and tables"
+  },
+  {
+    "objectID": "ps2.html",
+    "href": "ps2.html",
+    "title": "PS 2 Solutions",
+    "section": "",
+    "text": "A2)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n    A( )\n    A --&gt;|.006| B(POS)\n    A --&gt;|.994| C(NEG)\n    B --&gt;|.999| D(P_1)\n    B --&gt;|.001| E(M_1)\n    C --&gt;|.01| F(P_1)\n    C --&gt;|.99| G(M_1)\n    D --&gt;|.999| H(P_2)\n    D --&gt;|.001| I(M_2)\n    E --&gt;|.999| J(P_2)\n    E --&gt;|.001| K(M_2)\n    F --&gt;|.01| L(P_2)\n    F --&gt;|.99| M(M_2)\n    G --&gt;|.01| N(P_2)\n    G --&gt;|.99| O(M_2)\n\n\n\n\n\n\n\n\n\n\nOutcome\nProbability\n\n\n\n\nPOS \\(\\cap\\) \\(P_1 \\cap P_2\\)\n(0.006)(0.999)\\(^2\\)\n\n\nPOS \\(\\cap\\) \\(P_1 \\cap M_2\\)\n(0.006)(0.999)(0.001)\n\n\nPOS \\(\\cap\\) \\(M_1 \\cap P_2\\)\n(0.006)(0.001)(0.999)\n\n\nPOS \\(\\cap\\) \\(M_1 \\cap M_2\\)\n(0.006)(0.001)\\(^2\\)\n\n\nNEG \\(\\cap\\) \\(P_1 \\cap P_2\\)\n(0.994)(0.01)\\(^2\\)\n\n\nNEG \\(\\cap\\) \\(P_1 \\cap M_2\\)\n(0.994)(0.01)(0.99)\n\n\nNEG \\(\\cap\\) \\(M_1 \\cap P_2\\)\n(0.994)(0.99)(0.01)\n\n\nNEG \\(\\cap\\) \\(M_1 \\cap M_2\\)\n(0.994)(0.99)\\(^2\\)\n\n\n\n\n\n\n\n\nA3)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n    A( )\n    A --&gt;|.008| B1(alpha)\n    A --&gt;|.992| B2(beta)\n    B1 --&gt;|.006| D1(POS)\n    B1 --&gt;|.994| D2(NEG)\n    B2 --&gt;|.006| C1(POS)\n    B2 --&gt;|.994| C2(NEG)\n    D1 --&gt;|1| P1(P_1)\n    D1 --&gt;|0| P2(M_1)\n    P1 --&gt;|1| R1(P_2)\n    P1 --&gt;|0| R2(M_2)\n    P2 --&gt;|1| S1(P_2)\n    P2 --&gt;|0| S2(M_2)\n    D2 --&gt;|1| U1(P_1)\n    D2 --&gt;|0| U2(M_1)\n    U1 --&gt;|1| V1(P_2)\n    U1 --&gt;|0| V2(M_2)\n    U2 --&gt;|1| W1(P_2)\n    U2 --&gt;|0| W2(M_2)\n    C1 --&gt;|.999| E1(P_1)\n    C1 --&gt;|.001| E2(M_1)\n    E1 --&gt;|.999| Q1(P_2)\n    E1 --&gt;|.001| Q2(M_2)\n    C2 --&gt;|.01| F1(P_1)\n    C2 --&gt;|.99| F2(M_1)\n    F1 --&gt;|.01| G1(P_2)\n    F1 --&gt;|.99| G2(M_2)\n    F2 --&gt;|.01| H1(P_2)\n    F2 --&gt;|.99| H2(M_2)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOutcome\nProbability\n\n\n\n\n\\(\\alpha\\cap \\text{POS}\\cap P_1{\\cap}P_2\\)\n(0.008)(0.006)\n\n\n\\(\\alpha\\cap \\text{POS}\\cap P_1{\\cap}M_2\\)\n0\n\n\n\\(\\alpha\\cap \\text{POS}\\cap M_1{\\cap}P_2\\)\n0\n\n\n\\(\\alpha\\cap \\text{POS}\\cap M_1{\\cap}P_2\\)\n0\n\n\n\\(\\alpha\\cap \\text{POS}\\cap M_1{\\cap}M_2\\)\n0\n\n\n\n\n\n\n\\(\\alpha\\cap \\text{NEG}\\cap P_1{\\cap}P_2\\)\n(0.008)(0.994)\n\n\n\\(\\alpha\\cap \\text{POS}\\cap P_1{\\cap}M_2\\)\n0\n\n\n\\(\\alpha\\cap \\text{POS}\\cap M_1{\\cap}P_2\\)\n0\n\n\n\\(\\alpha\\cap \\text{POS}\\cap M_1{\\cap}M_2\\)\n0\n\n\n\n\n\n\n\\(\\beta\\cap \\text{POS}\\cap P_1{\\cap}P_2\\)\n(0.992)(0.006)(0.999)\\(^2\\)\n\n\n\\(\\beta\\cap \\text{POS}\\cap P_1{\\cap}M_2\\)\n(0.992)(0.006)(0.999)(0.001)\n\n\n\\(\\beta\\cap \\text{POS}\\cap M_1{\\cap}P_2\\)\n(0.992)(0.006)(0.001)(0.999)\n\n\n\\(\\beta\\cap \\text{POS}\\cap M_1{\\cap}M_2\\)\n(0.992)(0.001)\\(^2\\)\n\n\n\n\n\n\n\\(\\beta\\cap \\text{NEG}\\cap P_1{\\cap}P_2\\)\n(0.992)(0.994)(0.01)\\(^2\\)\n\n\n\\(\\beta\\cap \\text{POS}\\cap P_1{\\cap}M_2\\)\n(0.992)0.994)(0.01)(0.99)\n\n\n\\(\\beta\\cap \\text{POS}\\cap M_1{\\cap}P_2\\)\n(0.992)(0.994)(0.99)(0.1)\n\n\n\\(\\beta\\cap \\text{POS}\\cap M_1{\\cap}M_2\\)\n(0.992)(0.994)(0.99)\\(^2\\)",
     "crumbs": [
       "Problem Set Solutions",
-      "PS4",
-      "PS4 additional solutions"
+      "PS2",
+      "PS 2 Solutions"
+    ]
+  },
+  {
+    "objectID": "ps3a.html",
+    "href": "ps3a.html",
+    "title": "PS3 Additional Solutions",
+    "section": "",
+    "text": "A2)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n    A( )\n    A --&gt;|1/3| B(H)\n    A --&gt;|2/3| C(T)\n    B --&gt;|2/3| D(H)\n    B --&gt;|1/3| E(T)\n    C --&gt;|1/4| F(H)\n    C --&gt;|3/4| G(T)\n\n\n\n\n\n\n\n\n\n\n\n\\(\\omega\\)\nP\\((\\omega)\\)\n\\(\\tilde R\\)\n\n\n\n\nHH\n2/9\n2\n\n\nHT\n1/9\n1\n\n\nTH\n1/6\n1\n\n\nTT\n1/2\n0\n\n\n\n\n\n\n\n\nA3)\nThis one isn’t happening in mermaid\n\n\n\n\n\ngraph LR\n    A[\" \"]\n    A--&gt;|1/2| H[\"H\"]\n    H --&gt;|1/2| N[\"H\"]\n    H --&gt;|1/2| O[\"T\"]\n    A --&gt;|4/5| I[\"T\"]\n    I --&gt;|1/2| P[\"H\"]\n    I --&gt;|1/2| Q[\"T\"]--&gt;BB[H]\n    Q --&gt;|1/2| QQ[T]\n    A --&gt;|1/6| C[\"T\"]\n    C --&gt;|1/2| E[\"H\"]\n    E --&gt;|1/2| J[\"H\"]\n    E --&gt;|1/2| K[\"T\"]\n    C --&gt;|1/2| F[\"T\"]\n    F --&gt;|1/2| L[\"H\"]\n    F --&gt;|1/2| M[\"T\"]\n    J --&gt;|1/2| R[\"H\"]\n    J --&gt;|1/2| S[\"T\"]\n    K --&gt;|1/2| T[\"H\"]\n    K --&gt;|1/2| U[\"T\"]\n    L --&gt;|1/2| V[\"H\"]\n    L --&gt;|1/2| W[\"T\"]\n    M --&gt;|1/2| X[\"H\"]\n    M --&gt;|1/2| Y[\"T\"]\n    P --&gt;|1/2| Z[\"H\"]\n    P --&gt;|1/2| AA[\"T\"]\n\n\n\n\n\n\n\n\nA12)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n  A( ) --&gt;|7/10| B1(B)\n  A--&gt;|3/10| R1(R)\n  B1(B) --&gt;|7/10| B2(B)\n  B1(B) --&gt;|3/10| R2(R)\n  R1(R) --&gt;|7/10| B3(B)\n  R1(R) --&gt;|3/10| R3(R)\n  B2(B) --&gt;|7/10| B4(B)\n  B2(B) --&gt;|3/10| R4(R)\n  R2(R) --&gt;|7/10| B5(B)\n  R2(R) --&gt;|3/10| R5(R)\n  B3(B) --&gt;|7/10| B6(B)\n  B3(B) --&gt;|3/10| R6(R)\n  R3(R) --&gt;|7/10| B7(B)\n  R3(R) --&gt;|3/10| R7(R)\n\n\n\n\n\n\n\n\n\n\nOutcome\nProb\n\\(\\tilde X\\)\n\n\n\n\nBBB\n\\((7/10)^3\\)\n3\n\n\nBBR\n\\((7/10)^2(3/10)\\)\n2\n\n\n\n\n\n\n\nBRB\n\\((7/10)^2(3/10)\\)\n2\n\n\nBRR\n\\((7/10)(3/10)^2\\)\n1\n\n\n\n\n\n\n\nRBB\n\\((7/10)^2(3/10)\\)\n2\n\n\nRBR\n\\((7/10)(3/10)^2\\)\n1\n\n\n\n\n\n\n\nRRB\n\\((7/10)(3/10)^2\\)\n1\n\n\nRRR\n\\((3/10)^3\\)\n0\n\n\n\n\n\n\n\n\nA13)\n\n\n\n\n\n\n\n\n\n\ngraph LR\n  A( ) --&gt;|14/20| B1(B)\n  A --&gt;|6/20| R1(R)\n  B1 --&gt;|13/19| B2(B)\n  B1 --&gt;|6/19| R2(R)\n  R1 --&gt;|14/19| B3(B)\n  R1 --&gt;|5/19| R3(R)\n  B2 --&gt;|12/18| B4(B)\n  B2 --&gt;|6/18| R4(R)\n  R2 --&gt;|13/18| B5(B)\n  R2 --&gt;|5/18| R5(R)\n  B3 --&gt;|13/18| B6(B)\n  B3 --&gt;|5/18| R6(R)\n  R3 --&gt;|14/18| B7(B)\n  R3 --&gt;|4/18| R7(R)\n\n\n\n\n\n\n\n\n\n\nOutcome\nProb\n\\(\\tilde Y\\)\n\n\n\n\nBBB\n91/285\n3\n\n\nBBR\n91/570\n2\n\n\n\n\n\n\n\nBRB\n91/570\n2\n\n\nBRR\n7/114\n1\n\n\n\n\n\n\n\nRBB\n91/570\n2\n\n\nRBR\n7/114\n1\n\n\n\n\n\n\n\nRRB\n7/114\n1\n\n\nRRR\n1/57\n0",
+    "crumbs": [
+      "Problem Set Solutions",
+      "PS3",
+      "PS3 Additional Solutions"
     ]
   },
   {
